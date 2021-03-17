@@ -36,3 +36,11 @@ The following arguments are supported:
 The following attributes are exported:
 
 * `api_uri` - The URI representing this data bag in the Chef server API.
+
+## Import
+
+Chef Data Bag's can be imported using the `name`, e.g.
+
+```shell
+terraform import chef_data_bag.db_info db_info
+```

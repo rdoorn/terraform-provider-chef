@@ -45,3 +45,11 @@ The following arguments are supported:
 ## Attributes Reference
 
 This resource exports no further attributes.
+
+## Import
+
+Chef Role's can be imported using the `name`, e.g.
+
+```shell
+terraform import chef_role.db db
+```

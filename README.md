@@ -7,6 +7,23 @@ Terraform Provider
 
 <img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="600px">
 
+
+---
+
+# Will update soon, this is purely a fork of the archived chef provider, so we have darwin_arm64 builds
+
+also added import functionality
+
+To replace old Hashicorp Chef provider with this one:
+```
+tf state replace-provider terraform-providers/chef terrycain/chef
+```
+
+
+---
+
+
+
 Requirements
 ------------
 

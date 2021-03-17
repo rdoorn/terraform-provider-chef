@@ -53,3 +53,11 @@ The following arguments are supported:
 ## Attributes Reference
 
 This resource exports no further attributes.
+
+## Import
+
+Chef Node's can be imported using the `name`, e.g.
+
+```shell
+terraform import chef_node.db1 db1
+```
