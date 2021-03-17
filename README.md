@@ -10,7 +10,7 @@ Terraform Provider
 
 ---
 
-# Will update soon, this is purely a fork of the archived chef provider, so we have darwin_arm64 builds
+# Will update readme soon, this is purely a fork of the archived chef provider, so we have darwin_arm64 builds
 
 also added import functionality
 

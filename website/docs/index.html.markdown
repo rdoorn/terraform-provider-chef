@@ -16,6 +16,13 @@ that exist within [Chef Server](http://docs.chef.io/chef_server.html).
 
 Use the navigation to the left to read about the available resources.
 
+## Migration from terraform-providers/chef
+
+To replace old Hashicorp provided Chef provider with this one, run the following (and update files requiring terraform-providers/chef):
+```
+terraform state replace-provider terraform-providers/chef terrycain/chef
+```
+
 ## Example Usage
 
 ```hcl
