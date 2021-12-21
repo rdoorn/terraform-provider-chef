@@ -44,9 +44,6 @@ func resourceChefClient() *schema.Resource {
 				Computed:  true,
 				Sensitive: true,
 				StateFunc: CryptoHashingStateFunc,
-				DiffSuppressFunc: func(k, old, new string, d *schema.ResourceData) bool {
-					return true
-				},
 			},
 		},
 	}
