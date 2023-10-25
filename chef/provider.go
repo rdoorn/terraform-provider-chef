@@ -57,6 +57,8 @@ func Provider() terraform.ResourceProvider {
 			"chef_data_bag_item": resourceChefDataBagItem(),
 			"chef_environment":   resourceChefEnvironment(),
 			"chef_client":        resourceChefClient(),
+			"chef_client_delete": resourceChefClientDelete(),
+			"chef_node_delete":   resourceChefNodeDelete(),
 			"chef_node":          resourceChefNode(),
 			"chef_role":          resourceChefRole(),
 		},
